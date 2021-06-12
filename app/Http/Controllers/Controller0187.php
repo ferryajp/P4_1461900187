@@ -57,7 +57,7 @@ class Controller0187 extends Controller
         }
         public function export() 
     {
-        return Excel::download(new UsersExport, 'buku.xlsx');
+        return Excel::download(new UsersExport, 'Data_1461900187.xlsx');
     }
         
 }
