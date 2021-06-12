@@ -79,7 +79,7 @@
                       
                       <th>Jenis Buku</th>
                       <th>Tahun Terbit</th>
-                      <th>Aksi</th>
+                      <!-- <th>Aksi</th> -->
                      
                   </tr>
               </thead>
@@ -94,9 +94,9 @@
                       <td>{{ $Home->judul }}</td>
                       <td>{{ $Home->jenis }}</td>
                       <td>{{ $Home->tahun_terbit }}</td>
-                      <td><a href="#">Edit</a> | 
+                      <!-- <td><a href="#">Edit</a> | 
                           <a href="#">Hapus</a>
-                      </td>
+                      </td> -->
                     
                       
                   </tr>
