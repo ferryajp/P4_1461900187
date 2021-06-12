@@ -16,12 +16,12 @@ class Controller0187 extends Controller
         return view('buku0187',['buku' => $buku]);
     }
     public function jenisbuku(){
-        $jenisbuku = DB::table('jenisbuku')->get();
+        $jenisbuku = DB::table('jenis_buku')->get();
         
         return view('jenisbuku0187',['jenisbuku' => $jenisbuku]);
     }
     public function rakbuku(){
-        $rakbuku = DB::table('rakbuku')->get();
+        $rakbuku = DB::table('rak_buku')->get();
         
         return view('rakbuku0187',['rakbuku' => $rakbuku]);
     }

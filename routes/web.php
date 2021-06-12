@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('buku0187', [Controller0187::class,'buku']);
-Route::get('buku0187/cari', [Controller0187::class,'cari']);
-Route::get('jenisbuku0187', [Controller0187::class,'jenisbuku']);
+Route::get('jenisbuku', [Controller0187::class,'jenisbuku']);
+// Route::get('jenisbuku0187', [Controller0187::class,'jenisbuku']);
 Route::get('rakbuku0187', [Controller0187::class,'rakbuku']);
 Route::get('home0187', [Controller0187::class,'home']);
 Route::get('export0187', [Controller0187::class, 'export']);
