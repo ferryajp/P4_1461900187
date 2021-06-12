@@ -101,5 +101,5 @@
 
     </div>
 </body>
-<br><a href="{{url('/export0187')}}"><button type="button" class="btn btn-dark">Export</button></a>
+<br><a href="{{url('/export0187')}}"><button type="button" class="btn btn-outline-dark">Export</button></a>
 <br/>
